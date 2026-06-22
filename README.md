@@ -1,6 +1,6 @@
-# CodeAlpha_Language_Translation_Tool
+# Language Translation Tool
 
-Language Translation Tool for the CodeAlpha Artificial Intelligence internship.
+Standalone language translation project with a Streamlit interface.
 
 ## Features
 
@@ -33,6 +33,6 @@ streamlit run apps/translation_app.py
 
 ## Files
 
-- `codealpha_ai/translation.py` - translation logic
+- `language_translation/translation.py` - translation logic
 - `apps/translation_app.py` - Streamlit interface
 - `tests/test_translation.py` - automated tests

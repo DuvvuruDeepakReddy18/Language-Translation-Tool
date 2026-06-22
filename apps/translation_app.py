@@ -5,13 +5,13 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 import streamlit as st
 
-from codealpha_ai.translation import TranslationError, translate_text
+from language_translation.translation import TranslationError, translate_text
 
 
 LANGUAGES = ["English", "Hindi", "Telugu", "Spanish", "French", "German"]
 
 
-st.set_page_config(page_title="CodeAlpha Translation Tool", page_icon="AI", layout="centered")
+st.set_page_config(page_title="Language Translation Tool", page_icon="AI", layout="centered")
 st.title("Language Translation Tool")
 
 text = st.text_area("Enter text", value="Hello, how are you?", height=140)

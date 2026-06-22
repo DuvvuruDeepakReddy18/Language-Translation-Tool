@@ -1,6 +1,6 @@
 import unittest
 
-from codealpha_ai.translation import TranslationError, translate_text
+from language_translation.translation import TranslationError, translate_text
 
 
 class TranslationTests(unittest.TestCase):

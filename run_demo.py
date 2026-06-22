@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from codealpha_ai.translation import translate_text
+from language_translation.translation import translate_text
 
 
 def main() -> None:

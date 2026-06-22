@@ -1,4 +1,4 @@
-"""CodeAlpha language translation task package."""
+"""Language translation task package."""
 
 from .translation import TranslationError, TranslationResult, translate_text
 
