@@ -1,0 +1,2 @@
+Input: Hello, how are you?
+Output: Namaste, aap kaise hain?
